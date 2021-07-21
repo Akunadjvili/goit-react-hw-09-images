@@ -15,3 +15,11 @@
   justify-content: center;
   align-items: center;
 }
+
+.Modal__img {
+  display: block;
+  width: auto;
+  height: 100%;
+  object-position: center;
+  object-fit: contain;
+}

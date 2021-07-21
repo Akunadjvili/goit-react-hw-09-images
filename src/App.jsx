@@ -104,7 +104,7 @@ export default function App() {
       </div>
       {showModal && (
         <Modal onClose={toggleModal}>
-          <img src={url} alt={hint} />
+          <img className={styles.Modal__img} src={url} alt={hint} />
         </Modal>
       )}
       {loading && <Loader />}
